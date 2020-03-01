@@ -105,7 +105,6 @@ class _HomepageState extends State<Homepage> {
     rat2 = _rat2;
     rat3 = _rat3;
     rat4 = _rat4;
-    //rat5=_rat5;
     rat6 = _rat6;
     rat7 = _rat7;
     rat8 = _rat8;
@@ -136,7 +135,7 @@ class _HomepageState extends State<Homepage> {
                 padding: EdgeInsets.only(top: 10),
               ),
               Text(
-                "nearby restaurants",
+                " nearby restaurants",
                 style: TextStyle(color: Colors.grey, fontSize: 10),
               ),
               Padding(

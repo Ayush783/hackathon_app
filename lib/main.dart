@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hackathon_app/homepage.dart';
 import 'package:hackathon_app/login.dart';
+import 'package:hackathon_app/resAdmin_Dashbord.dart';
 import 'package:hackathon_app/restaurant_page.dart';
 
 void main() => runApp(MyApp());
@@ -24,6 +25,9 @@ class MyApp extends StatelessWidget {
         '11': (context) => ResPage7(),
         '12': (context) => ResPage8(),
         '13': (context) => ResPage9(),
+        '14': (context) => Adminlogin(),
+        '15': (context) => AdminPage(),
+
       },
       theme: ThemeData.light(),
       initialRoute: '/',

@@ -4,8 +4,8 @@ class ResPage1 extends StatefulWidget {
   @override
   _ResPage1State createState() => _ResPage1State();
 }
-
 class _ResPage1State extends State<ResPage1> {
+  double sum=0;
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -92,6 +92,12 @@ class _ResPage1State extends State<ResPage1> {
               Dishes('Chicken tikka',119.0),
               Dishes('paneer Tikka',250.0),
               Dishes('Fried chicken',190.0),
+              Padding(padding: EdgeInsets.only(top:15),),
+              Card(child: Row(children: <Widget>[
+                Text("Cart"),
+                Padding(padding: EdgeInsets.only(right:100),),
+                Text("Total Sum :")
+              ],),)
             ],
           ),
         ),
@@ -345,6 +351,7 @@ class Dishes extends StatefulWidget {
 
 class _DishesState extends State<Dishes> {
   int i=0;
+  double sum=0;
   @override
   Widget build(BuildContext context) {
    return Card(
@@ -379,6 +386,8 @@ class _DishesState extends State<Dishes> {
         onPressed: (){
           setState(() {
             i++;
+            sum=i*widget.price;
+            return sum;
           });
       },
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),

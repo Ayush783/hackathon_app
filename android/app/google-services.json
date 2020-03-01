@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1009856194603",
+    "firebase_url": "https://aahm-eats.firebaseio.com",
+    "project_id": "aahm-eats",
+    "storage_bucket": "aahm-eats.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009856194603:android:9a3369f01100d59407226e",
+        "android_client_info": {
+          "package_name": "com.example.hackathon_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1009856194603-5h0nrq3qtejllu68pe7vd3748gdfu5ma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbyLAPE_m2jWqEwO45nx2XyFJFb-EhVmI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1009856194603-5h0nrq3qtejllu68pe7vd3748gdfu5ma.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
